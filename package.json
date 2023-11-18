@@ -1,0 +1,53 @@
+{
+	"name": "check-up",
+	"version": "0.1.0",
+	"description": "A lightweight, no-dependencies, unit testing library.",
+	"type": "module",
+	"scripts": {
+		"build": "tsc",
+		"prepublishOnly": "npm test || (echo 'Tests failed' && exit 1)",
+		"test": "node ./tst/assertion-failures.test.js && node ./tst/assertion-success.test.js && node ./tst/settings.test.js"
+	},
+	"types": "./src/@types/index.d.ts",
+	"exports": {
+		"main": "./src/common-js/index.js",
+		"require": "./src/common-js/index.js",
+		"module": "./src/module/index.js",
+		"import": "./src/module/index.js"
+	},
+	"files": [
+		"dist"
+	],
+	"devDependencies": {
+		"rollup": "^4.6.0",
+		"typescript": "^5.2.2"
+	},
+	"keywords": [
+		"javascript",
+		"test",
+		"testing",
+		"unit-test",
+		"debugging",
+		"lightweight",
+		"minimal",
+		"no-dependencies",
+		"simple",
+		"basic",
+		"assert",
+		"assertions",
+		"mock",
+		"mocking",
+		"vanilla-js",
+		"vanilla",
+		"standalone",
+		"framework",
+		"open-source",
+		"BDD",
+		"TDD"
+	],
+	"author": "Asher Rosenbaum",
+	"license": "MIT",
+	"publishConfig": {
+		"access": "public"
+	}
+}
