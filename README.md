@@ -196,7 +196,7 @@ Registers callbacks to be executed when the test suite starts.
 
 Registers callbacks to be executed when each test starts.
 
-#### tests.onShowResults(...callbacks)
+### tests.onShowResults(...callbacks)
 
 Registers callbacks to be executed when test results are about to be shown.
 
