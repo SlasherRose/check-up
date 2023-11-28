@@ -148,7 +148,7 @@ demoAssertions.test("testAssertType", () => {
 	CheckUp.assert(a).isType("string");
 });
 
-const results = demoAssertions.results();
+const results = demoAssertions.endTests();
 ```
 
 #### Output:
