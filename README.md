@@ -21,6 +21,22 @@ Out-of-the-box features include:
 
 CheckUp.js is designed to be easily implemented into any project. As such, there are multiple ways to add it to your project.
 
+### Method 1: NPM
+
+For the absolute easiest way to include this test suite in your node.js project, you can run the following command:
+
+`npm i @slasherrose/check-up`
+
+You can then use the following to import CheckUp
+
+#### For Modules
+
+`import {Tests, assert} from '@slasherrose/check-up'`
+
+#### For CommonJS
+
+`const { Test, assert } = require(@slasherrose/check-up)`
+
 ### Method 1: Copy-Paste Files
 
 For certain projects, it can be use to have total control over the files included. To accommodate this use case, files from this library can easily be transferred into your project for use.

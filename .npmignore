@@ -1,0 +1,8 @@
+node_modules/
+dist/
+build/
+imgs/
+tst/
+.gitignore
+.gitattributes
+package-lock.json

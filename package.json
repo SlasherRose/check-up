@@ -1,6 +1,6 @@
 {
 	"name": "@slasherrose/check-up",
-	"version": "1.0.0",
+	"version": "1.2.0",
 	"description": "A lightweight, no-dependencies, unit testing library.",
 	"type": "module",
 	"scripts": {
@@ -16,7 +16,7 @@
 		"import": "./src/module/index.js"
 	},
 	"files": [
-		"dist"
+		"src"
 	],
 	"devDependencies": {
 		"rollup": "^4.6.0",
