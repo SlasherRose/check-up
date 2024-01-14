@@ -10,8 +10,8 @@
 	},
 	"types": "./src/@types/index.d.ts",
 	"exports": {
-		"main": "./src/common-js/index.js",
-		"require": "./src/common-js/index.js",
+		"main": "./src/common-js/index.cjs",
+		"require": "./src/common-js/index.cjs",
 		"module": "./src/module/index.js",
 		"import": "./src/module/index.js"
 	},
