@@ -5,7 +5,7 @@
  * https://github.com/SlasherRose/check-up
  */
 
-import { Tests, assert } from "check-up";
+import { Tests, assert } from "@slasherrose/check-up";
 
 /* TEST DESCRIPTION */
 /* This test file is used to verify that the settings are working as expected

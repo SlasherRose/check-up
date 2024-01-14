@@ -5,7 +5,7 @@
  * https://github.com/SlasherRose/check-up
  */
 
-import { Tests, assert } from "check-up";
+import { Tests, assert } from "@slasherrose/check-up";
 import * as Errors from "../src/module/errors.js";
 
 /* TEST INFORMATION */

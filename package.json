@@ -1,6 +1,6 @@
 {
-	"name": "check-up",
-	"version": "0.1.0",
+	"name": "@slasherrose/check-up",
+	"version": "1.0.0",
 	"description": "A lightweight, no-dependencies, unit testing library.",
 	"type": "module",
 	"scripts": {

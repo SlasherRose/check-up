@@ -5,7 +5,7 @@
  * https://github.com/SlasherRose/check-up
  */
 
-import { Tests, assert } from "check-up";
+import { Tests, assert } from "@slasherrose/check-up";
 
 /* TEST INFORMATION */
 /* This test ensures that all assertions succeed when appropriate.
