@@ -41,7 +41,7 @@ You can then use the following to import CheckUp
 
 For certain projects, it can be use to have total control over the files included. To accommodate this use case, files from this library can easily be transferred into your project for use.
 
-#### • Add to a Common JS Project
+#### • Add to a CommonJS Project
 
 The default for node applications is common-js, which means if you are using node and not explicitly using modules, this will most likely be the best option for you
 
@@ -51,7 +51,7 @@ The default for node applications is common-js, which means if you are using nod
 
 ##### Step 3: In your tests file, you can now import using the following line
 
-`const { Tests, assert } = require("./CheckUp");`
+`const { Tests, assert } = require("./CheckUp/index.cjs");`
 
 #### • Add to an ES module Project
 
